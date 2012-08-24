@@ -1,0 +1,67 @@
+#timeline-line{
+    height:230px;
+    width:9px;
+    /* Firefox 3.6+ */
+    background-image:-moz-linear-gradient(bottom, #FFFFFF 0%, #49c 20%, #49E 90%, #FFFFFF 100%);
+
+    /* Safari 4+, Chrome 1-9 */
+    background-image: -webkit-gradient(linear, 0%, 100%, from(#FFFFFF), color-stop(0.2, #49C), color-stop(0.9, #49E), to(#FFFFFF));
+
+    /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #49c 20%, #49E 90%, #FFFFFF 100%); 
+
+    /* IE 10+ */
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #49c 20%, #49E 90%, #FFFFFF 100%);
+
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #49c 20%, #49E 90%, #FFFFFF 100%);
+
+    /* Official Syntax */
+    background-image: linear-gradient(bottom, #FFFFFF 0%, #49c 20%, #49E 90%, #FFFFFF 100%);
+   
+}
+.timeline-circle{
+width:13px;
+height:13px;
+border-radius:50%;
+background:#555;
+}
+.timeline-circle:hover{
+background:#333;
+}
+
+ul#timeline-list{
+list-style-type:none;
+}
+#timeline-years{
+position:absolute;
+top:37px;
+left:-34px;
+}
+.year-box{
+position:relative;
+left:18px;
+top:-4px;
+height:45px;
+width:600px;
+padding:2px;
+border-radius:5px;
+color:#444;
+}
+.year-box:hover{
+background:#EEE;
+color:#000;
+}
+.year{
+position:absolute;
+}
+.education{
+position:absolute;
+left:65px;
+width:340px;
+}
+.result{
+position:absolute;
+left:490px;
+width:90px;
+}
