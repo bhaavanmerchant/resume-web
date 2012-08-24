@@ -41,7 +41,7 @@ left:-34px;
 .year-box{
 position:relative;
 left:18px;
-top:-4px;
+top:-25px;
 height:45px;
 width:600px;
 padding:2px;
@@ -64,4 +64,27 @@ width:340px;
 position:absolute;
 left:490px;
 width:90px;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid #333;
+    position:relative;
+    left:11px;
+    top:0px;
+    display:none;
+}
+.farrow{
+	width: 0; 
+	height: 0; 
+	border-top: 8px solid #FFF;
+	border-bottom: 8px solid #FFF;
+	border-left: 8px solid #FFF;
+    position:relative;
+    left:11px;
+    top:0px;
+    display:block;
 }
