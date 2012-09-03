@@ -192,7 +192,7 @@ border-top:2px solid #333;
 .bar{
 position:absolute;
 top:0px;
-width:40px;
+width:35px;
 height:250px;
 }
 .lname{
@@ -208,7 +208,7 @@ bottom:0;
 background:#F93;
 }
 #lg2{
-left:300px;
+left:290px;
 height:85%;
 width:100%;
 position:absolute;
@@ -216,7 +216,7 @@ bottom:0;
 background:#F60;
 }
 #lg3{
-left:400px;
+left:370px;
 height:90%;
 width:100%;
 position:absolute;
@@ -224,7 +224,7 @@ bottom:0;
 background:#090;
 }
 #lg4{
-left:500px;
+left:460px;
 height:75%;
 width:100%;
 position:absolute;
@@ -232,7 +232,7 @@ bottom:0;
 background:#39F;
 }
 #lg5{
-left:600px;
+left:550px;
 height:60%;
 width:100%;
 position:absolute;
@@ -240,7 +240,7 @@ bottom:0;
 background:#AA8;
 }
 #lg6{
-left:700px;
+left:640px;
 height:85%;
 width:100%;
 position:absolute;
@@ -248,7 +248,7 @@ bottom:0;
 background:#690;
 }
 #lg7{
-left:800px;
+left:730px;
 height:35%;
 width:100%;
 position:absolute;
@@ -256,10 +256,13 @@ bottom:0;
 background:#F66;
 }
 #lg8{
-left:900px;
+left:820px;
 height:75%;
 width:100%;
 position:absolute;
 bottom:0;
 background:#669;
+}
+.innerbar{
+border-radius:5px 5px 0 0;
 }

@@ -23,7 +23,11 @@ $(this).parent().children('.arrow-right').hide();
 $(this).parent().children('.farrow').show();
 }
 );
-
+$('.innerbar').each(function(index){
+$(this).animate({
+                    height:"50px"
+                },2300);
+                });
 
 });
 
